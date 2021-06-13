@@ -35,6 +35,7 @@ class AnimalNoisesApp extends StatelessWidget {
         body: SafeArea(
           child: GridView.count(
             crossAxisCount: 3,
+            childAspectRatio: 1.5,
             children: getAnimalsList(animalNames),
           ),
         ),
